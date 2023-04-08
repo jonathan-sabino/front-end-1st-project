@@ -1,0 +1,132 @@
+/* fonte importada do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; 100% da viewport */
+    box-sizing: border-box; /* elementos se adequam para caber na box mesmo utilizando border e padding  */
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+header {
+    padding: 2% 20%;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu__links {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #BF622C;
+    text-decoration: none;
+}
+
+#presentation {
+    padding: 5% 20%;
+    display: flex; /* flexbox */
+    align-items: center;
+}
+
+.content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.content__tittle {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+}
+
+.content__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.text-highlight {
+    color: #BF622C;
+}
+
+.content__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px; /* cria um gap entre todos os elementos dentro da flexbox */
+}
+
+.content__links__subtittle {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.content__links__button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 4px solid #BF622C;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21.5px 0;
+
+}
+
+.content__links__button:hover {
+    background-color: #272727;
+}
+
+.image {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image:hover {
+    opacity: 0.6;
+}
+
+#mail {
+    display: flex;
+    justify-content: center;
+}
+
+.mail__send {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+footer {
+    background-color: #BF622C;
+    padding: 16px;
+}
+
+.mail__send:hover {
+    color: #000000;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#city {
+    color: #000000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
